@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Registration Form</h1>
+      <h1>Create Account</h1>
       <form onSubmit={handleSubmit}>
         <label>
           First Name:
@@ -84,7 +84,7 @@ const App = () => {
           />
         </label>
         <br />
-        <center><button type="submit">Register</button></center>
+        <center><button type="submit">Create Account</button></center>
       </form>
     </div>
   );
