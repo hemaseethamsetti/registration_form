@@ -74,6 +74,16 @@ const App = () => {
           />
         </label>
         <br />
+        <label>
+           Confirm:
+          <input
+            type="password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+          />
+        </label>
+        <br />
         <center><button type="submit">Register</button></center>
       </form>
     </div>
